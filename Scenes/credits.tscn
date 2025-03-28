@@ -8,7 +8,7 @@
 [ext_resource type="Theme" uid="uid://d2d431orn77jx" path="res://Theme.tres" id="6_ekemw"]
 [ext_resource type="Script" uid="uid://hu1tnxqhmw2c" path="res://scripts/EnsureMenuFocus.cs" id="7_iuiw0"]
 [ext_resource type="Script" uid="uid://b80pd6qouusem" path="res://scripts/UIBindings.cs" id="8_p4e65"]
-[ext_resource type="FontFile" uid="uid://yj5tcy4l6apm" path="res://fonts/KIN668.TTF" id="9_pcnj4"]
+[ext_resource type="FontFile" uid="uid://c2qptxonmm87k" path="res://fonts/KIN668.TTF" id="9_pcnj4"]
 [ext_resource type="Script" uid="uid://to5h0f0hqjso" path="res://scripts/CreditsMenu.cs" id="10_4uesx"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_r2e4m"]
@@ -153,29 +153,33 @@ anchor_left = 0.376736
 anchor_top = 0.941358
 anchor_right = 0.532986
 anchor_bottom = 0.981482
-text = "OK"
+text = "yeah whatever"
 metadata/_edit_use_anchors_ = true
 
 [node name="ScrollContainer" type="ScrollContainer" parent="Control" index="4"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.161
-anchor_top = 0.102
-anchor_right = 0.931
-anchor_bottom = 0.917
-offset_left = -0.472015
-offset_top = -0.095993
-offset_right = -0.512085
-offset_bottom = -0.215942
+anchor_left = 0.16059
+anchor_top = 0.101852
+anchor_right = 0.930555
+anchor_bottom = 0.916667
+offset_left = -111.0
+offset_right = -0.999878
+grow_vertical = 2
 horizontal_scroll_mode = 0
 
 [node name="Label3" type="Label" parent="Control/ScrollContainer" index="0"]
 layout_mode = 2
+size_flags_horizontal = 4
 theme_override_fonts/font = ExtResource("9_pcnj4")
-text = "Game and music by Luke Vincent.
+text = "Original game created by Luke Vincent
+Mod created by Internet Lizard
+Per-level assets are credited in each level
 
-Special thanks to the players,
-and to those who contribute to game dev documentation and forum posts online."
+Special thanks to;
+Luke Vincent for making Harold's Walk, making Harold's Walk Open-Source and walking me through his code
+bird guy.cs for acting as a modding buddy and knowing more about C# than me
+"
 script = ExtResource("10_4uesx")
 metadata/_edit_use_anchors_ = true
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=18 format=3 uid="uid://bl0gcmucw12s"]
+[gd_scene load_steps=17 format=3 uid="uid://bl0gcmucw12s"]
 
 [ext_resource type="PackedScene" uid="uid://dh0uibymbwuvp" path="res://Scenes/Player.tscn" id="1_ssj8g"]
 [ext_resource type="Script" uid="uid://b185yellxkequ" path="res://scripts/PlayerCamera.cs" id="2_8fqb0"]
@@ -12,7 +12,6 @@
 [ext_resource type="Texture2D" uid="uid://cdejc4cjcfyir" path="res://textures/haroldFaceIconModern.png" id="8_2phmm"]
 [ext_resource type="Script" uid="uid://tsiqf0xo0fuj" path="res://scripts/MapCamera.cs" id="8_ygj5i"]
 [ext_resource type="Texture2D" uid="uid://bnccrgsuoed3u" path="res://textures/crownIcon.png" id="10_0cyvc"]
-[ext_resource type="FontFile" uid="uid://6wy1qp3lbfdk" path="res://fonts/Super Comic.ttf" id="11_hdgk2"]
 [ext_resource type="Texture2D" uid="uid://bdfe4v7c52par" path="res://textures/donutIcon.png" id="13_rtlik"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_uuhyw"]
@@ -116,8 +115,8 @@ offset_right = 80.0
 offset_bottom = 60.0
 grow_horizontal = 2
 theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
-theme_override_constants/shadow_outline_size = 3
 theme_override_constants/outline_size = 5
+theme_override_constants/shadow_outline_size = 3
 theme_override_font_sizes/normal_font_size = 24
 text = "
 00:00:000"
@@ -155,7 +154,6 @@ anchor_right = 1.63
 anchor_bottom = 0.568
 offset_right = -0.030014
 offset_bottom = -4.008
-theme_override_fonts/font = ExtResource("11_hdgk2")
 text = "0/0"
 metadata/_edit_use_anchors_ = true
 
@@ -179,7 +177,6 @@ anchor_right = 1.84
 anchor_bottom = 0.691
 offset_right = -11.37
 offset_bottom = -10.65
-theme_override_fonts/font = ExtResource("11_hdgk2")
 text = "0/0"
 metadata/_edit_use_anchors_ = true
 

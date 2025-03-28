@@ -592,9 +592,9 @@ public partial class SaveManager : Node
 
 		public Dictionary<string, double> timeAttackLevelTimes = new Dictionary<string, double>();
 
-        public SaveDataValues()
-        {
+		public SaveDataValues()
+		{
 			//Leave empty, vars are initialized in their definitions to avoid repeated code.
-        }
-    }
+		}
+	}
 }

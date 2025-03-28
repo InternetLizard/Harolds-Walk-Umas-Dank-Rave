@@ -19,20 +19,20 @@ public partial class EnsureMenuFocus : Node
 		defaultFocus.VisibilityChanged += VisibilityChanged;
 	}
 
-    private void VisibilityChanged()
+	private void VisibilityChanged()
 	{
 		defaultFocus.GrabFocus();
 	}
 
-    public override void _Process(double delta)
-    {
-        base._Process(delta);
+	public override void _Process(double delta)
+	{
+		base._Process(delta);
 
 		if(doButtonScaling)
 		{
 			ScaleButtons(delta);
 		}
-    }
+	}
 
 	/// <summary>
 	/// Visual lerp effect

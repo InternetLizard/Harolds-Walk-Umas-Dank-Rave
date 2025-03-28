@@ -192,8 +192,8 @@ metadata/_edit_use_anchors_ = true
 [node name="Label" type="Label" parent="Control/ScrollContainer/VBoxContainer" index="1"]
 layout_mode = 2
 text = "-OPTIONS-
-Adjust as needed,
-and then save your changes to apply them."
+you are John Settings [REMEMBER TO
+HIT SAVE AT THE BOTTOM]"
 
 [node name="spacer3" type="Label" parent="Control/ScrollContainer/VBoxContainer" index="2"]
 layout_mode = 2

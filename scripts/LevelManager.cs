@@ -116,7 +116,7 @@ public partial class LevelManager : Node3D
 
 		//" [–]TheDuriel 3 points 1 year ago* 
    		//get_parent().remove_child(self)
-    	//new_parent.add_child(self)
+		//new_parent.add_child(self)
 		//Despite what some contributor tried to tell me recently. You will need to await an idle frame between these two lines."
 
 		await ToSignal(GetTree(), SceneTree.SignalName.ProcessFrame);

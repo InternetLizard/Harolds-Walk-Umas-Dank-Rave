@@ -8,7 +8,7 @@
 [ext_resource type="Theme" uid="uid://d2d431orn77jx" path="res://Theme.tres" id="7_nu4t0"]
 [ext_resource type="Script" uid="uid://hu1tnxqhmw2c" path="res://scripts/EnsureMenuFocus.cs" id="8_8p46g"]
 [ext_resource type="Script" uid="uid://b80pd6qouusem" path="res://scripts/UIBindings.cs" id="9_vglug"]
-[ext_resource type="FontFile" uid="uid://yj5tcy4l6apm" path="res://fonts/KIN668.TTF" id="10_k3p5d"]
+[ext_resource type="FontFile" uid="uid://c2qptxonmm87k" path="res://fonts/KIN668.TTF" id="10_k3p5d"]
 [ext_resource type="Texture2D" uid="uid://cuv13u5two4u3" path="res://textures/3dsrepresentation.png" id="11_fmr0s"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_r2e4m"]
@@ -135,46 +135,60 @@ script = ExtResource("9_vglug")
 
 [node name="Label" type="Label" parent="Control" index="2"]
 layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.24
-anchor_top = 0.039
-anchor_right = 0.685
-anchor_bottom = 0.079
-offset_left = 0.519989
-offset_top = -0.272001
-offset_right = -0.120056
-offset_bottom = -0.192001
-text = "About / why I made this game"
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -160.5
+offset_right = 160.5
+offset_bottom = 38.0
+grow_horizontal = 2
+text = "About / Our Story Thus Far"
 
 [node name="Label3" type="Label" parent="Control" index="3"]
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.240451
+anchor_left = 0.0217014
 anchor_top = 0.101852
-anchor_right = 0.684896
+anchor_right = 0.466146
+anchor_bottom = 0.5
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("10_k3p5d")
+text = "ABOUT:
+Harold's Walk: Uma's Dank Rave is a mod of Harold's
+Walk created by Internet Lizard that aims to make the
+game stupid. It features a multitude of changes, such
+as new levels over the old ones, model changes, new
+music (as you can hear) and more!"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Label4" type="Label" parent="Control" index="4"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.532986
+anchor_top = 0.101852
+anchor_right = 0.977431
 anchor_bottom = 0.5
 theme_override_fonts/font = ExtResource("10_k3p5d")
-text = "Harold's Walk (the version you are playing or are about to play right now)
-is a port/remake of the original Harold's Walk game.
-  
-Harold's Walk originally released in December of 2020 on the Nintendo 3ds eShop (now defunct).
-This port/remake aims to bring the original experience of the game to a wider audience while also including new areas to explore.
-
-Please email me at luke.vincent@lukewasthefish.com if you find anything that needs to be fixed or improved."
+text = "THE STORY:
+Luke Vincent's birthday is nearly upon us - and Uma
+is throwing a surprise rave party to celebrate! All of Luke Vincent's characters have been invited to the party... Except for poor Will the Rabbit! Take control of
+our lagomorphic friend and collect every Golden Carrot to impress Uma and get an invite to Luke Vincent's birthday party!"
+horizontal_alignment = 1
 autowrap_mode = 3
 metadata/_edit_use_anchors_ = true
 
-[node name="Button" type="Button" parent="Control" index="4"]
+[node name="Button" type="Button" parent="Control" index="5"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.376736
 anchor_top = 0.518519
 anchor_right = 0.532986
 anchor_bottom = 0.558642
-text = "OK"
+text = "Gotcha."
 metadata/_edit_use_anchors_ = true
 
-[node name="TextureRect" type="TextureRect" parent="Control" index="5"]
+[node name="TextureRect" type="TextureRect" parent="Control" index="6"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.353299

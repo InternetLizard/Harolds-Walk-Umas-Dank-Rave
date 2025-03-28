@@ -8,7 +8,7 @@
 [ext_resource type="Theme" uid="uid://d2d431orn77jx" path="res://Theme.tres" id="6_7s7to"]
 [ext_resource type="Script" uid="uid://hu1tnxqhmw2c" path="res://scripts/EnsureMenuFocus.cs" id="7_83jo4"]
 [ext_resource type="Script" uid="uid://b80pd6qouusem" path="res://scripts/UIBindings.cs" id="8_43kb8"]
-[ext_resource type="FontFile" uid="uid://yj5tcy4l6apm" path="res://fonts/KIN668.TTF" id="9_pee3e"]
+[ext_resource type="FontFile" uid="uid://c2qptxonmm87k" path="res://fonts/KIN668.TTF" id="9_pee3e"]
 [ext_resource type="Texture2D" uid="uid://di1uagt7r6qxi" path="res://steamStorePage/CapsuleJune18/haroldflying.png" id="10_a8iku"]
 
 [sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_r2e4m"]
@@ -144,7 +144,7 @@ offset_left = 0.519989
 offset_top = -0.272001
 offset_right = -0.120056
 offset_bottom = -0.192001
-text = "Harold's Help"
+text = "Uma's Help"
 
 [node name="Label3" type="Label" parent="Control" index="3"]
 layout_mode = 1
@@ -156,11 +156,7 @@ anchor_bottom = 0.5
 theme_override_fonts/font = ExtResource("9_pee3e")
 text = "If you are stuck and don't know where to go or can't progress try:
 
--Using your super jump. Roll in the air immediately after using your second jump. The faster you perform this combination the higher Harold launches.
-
--Check for portals you may have missed. You can see this on the level select screen. One could lead you down a new path.
-
--Collect more crowns and/or bytes. Sometimes a portal will be locked because you don't have enough of these."
+-getting better LOOOOOOOOOOOOOOOOOL"
 autowrap_mode = 3
 metadata/_edit_use_anchors_ = true
 
